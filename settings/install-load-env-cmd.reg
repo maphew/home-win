@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+;Auto run this file every time CMD is opened
+;https://stackoverflow.com/a/21040825/14420
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor]
+"AutoRun"="%HOME%\\env.cmd"
